@@ -1,6 +1,8 @@
 # Kinderanwesenheit
 
-Eine Web-App zur Erfassung und Auswertung von Anwesenheitszeiten, gebaut mit Python und Streamlit.
+Wer im Wechselmodell Kinder betreut und Bürgergeld/Grundsicherung bezieht wird aufgefordert, die Anwesenheit der Kinder auf Stundenbasis zu protokollieren und vorzulegen. Außerdem werden Fahrten, die für die Erfüllung der Umgangsregelung notwendig sind, gesondert bezahlt. 
+
+Die Streamlit-App ermöglich die schnelle Verbuchung der Zeiten und Fahrten und erzeugt die notwendigen Statistiken.
 
 ## Features
 
@@ -10,14 +12,7 @@ Eine Web-App zur Erfassung und Auswertung von Anwesenheitszeiten, gebaut mit Pyt
 - "Gemeinsam"-Modus halbiert die Anwesenheitszeit automatisch
 - Optionales Kommentarfeld pro Tag
 - Auswertung über beliebige Zeiträume mit Prozentangabe
-- PDF-Export der Auswertung
-
-## Tech Stack
-
-- [Streamlit](https://streamlit.io/) – Web-Oberfläche
-- MySQL – Datenbank
-- pandas – Datenverarbeitung
-- fpdf2 – PDF-Export
+- PDF-Export der Auswertung - dem anderen Elternteil zur Unterschrift vorlegen und beim jobcenter abgeben!
 
 ## Installation
 
